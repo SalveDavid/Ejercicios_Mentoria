@@ -7,8 +7,6 @@
 
 
 def Tipos_de_datos(*tipos_de_datos):
-    # for _ in tipos_de_datos:
-    #     print(_)
 
     def wrapp1(datos_a_comparar):
 
@@ -19,16 +17,9 @@ def Tipos_de_datos(*tipos_de_datos):
                     if type(datos_a_b_c_d[i]) == tipos_de_datos[i]:
                         print(True)
                     else:
-                        # raise Exception
                         raise Exception("La variable no corresponde")
                 except Exception as error:
                     raise Exception(error)
-                    # raise Exception("esta mal")
-                    # raise Exception
-
-                # except Exception:
-                    # print("Esta variable no corresponde")
-                    # print(f"La variable no corresponde {datos_a_b_c_d[i]}")
 
         return wrapp2
 
