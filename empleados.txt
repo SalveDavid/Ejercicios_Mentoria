@@ -7,3 +7,5 @@ employee_code;name;lastname;address;age;start_date;salary;position;department
 006;Will;Smith;Los Angeles;50;March;2700;Tester;Testing
 007;Danny;Devito;Houston;47;November;2560;HR;HR
 008;Goku;Kakarotto;Tokio;37;August;4000;Manager;Management
+009;Veguetta;Vegetal;Kyoto;50;November;3500;Developer;IT
+010;Michael;Jackson;Los Angeles;60;February;3850;SDM;IT
