@@ -13,13 +13,13 @@ def Tipos_de_datos(*tipos_de_datos):
         def wrapp2(*datos_a_b_c_d):
 
             for i in range(len(datos_a_b_c_d)):
-                try:
+                # try:
                     if type(datos_a_b_c_d[i]) == tipos_de_datos[i]:
                         print(True)
                     else:
                         raise Exception("La variable no corresponde")
-                except Exception as error:
-                    raise Exception(error)
+                # except Exception as error:
+                #     raise Exception(error)
 
         return wrapp2
 
