@@ -22,8 +22,8 @@ lista_de_listas_con_coma = []
 lista_de_listas_con_coma_sin_primeralinea = []
 lista_de_listas_con_coma_sin_primeracolumna = []
 lista_de_listas_con_coma_sin_repeticiones = []
-k = 1
-menor = 0
+menor = None
+mayor = None
 sueldos = []
 sueldos2 = []
 
@@ -32,6 +32,7 @@ with open('empleados.txt') as file:
 
 for con_punto_y_coma in lista_con_punto_y_coma:
     lista_de_listas_con_coma.append(con_punto_y_coma.split(";"))
+print(lista_de_listas_con_coma)
 
 for i in range(1, len(lista_de_listas_con_coma)):
     lista_de_listas_con_coma_sin_primeralinea.append(lista_de_listas_con_coma[i])
@@ -48,11 +49,16 @@ for i in lista_de_listas_con_coma_sin_primeracolumna:
 sueldos2 = [sueldos.append(lista_de_listas_con_coma_sin_repeticiones[i][j]) for j in range(5, 6) for i in
             range(len(lista_de_listas_con_coma_sin_repeticiones))]
 
-for i in range(len(sueldos)-1):
-    if sueldos[i] < sueldos[i + 1]:
-        menor = sueldos[i]
-        sueldos[i] = sueldos[i + 1]
-        sueldos[i + 1] = menor
+for num in sueldos:
+    if menor == None and mayor == None:
+        menor = num
+        mayor = num
+    else:
+        if num < menor:
+            menor = num
+        elif num > mayor:
+            mayor = num
+
 print("El menor sueldo es: ", menor)
 
 
