@@ -1,7 +1,7 @@
 employee_code;name;lastname;address;age;start_date;salary;position;department
 001;Pepe;Martinez;Caracas;34;June;2500;Developer;IT
 002;Josefa;Tortu;Rosario;36;July;2300;QA;Testing
-003;Pepe;Martinez;Caracas;34;June;2000;Developer;IT
+003;Pepe;Martinez;Caracas;34;June;2500;Developer;IT
 004;Jacinto;Lomo;Brasil;40;May;3000;Manager;Management
 005;Charlize;Teron;Miami;45;January;5000;Developer;IT
 006;Will;Smith;Los Angeles;50;March;2700;Tester;Testing
@@ -9,3 +9,7 @@ employee_code;name;lastname;address;age;start_date;salary;position;department
 008;Goku;Kakarotto;Tokio;37;August;4000;Manager;Management
 009;Veguetta;Vegetal;Kyoto;50;November;3500;Developer;IT
 010;Michael;Jackson;Los Angeles;60;February;3850;SDM;IT
+011;Misifu;Castellanos;Londres;47;October;1500;Technical;IT
+012;Sutano;Mendigo;Bogota;36;December;3100;Manager;IT
+013;Will;Smith;Los Angeles;50;March;2700;Tester;Testing
+014;Mengano;Jimenez;Lima;38;March;1000;Security;Security
