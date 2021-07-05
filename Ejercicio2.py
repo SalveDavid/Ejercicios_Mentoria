@@ -59,6 +59,7 @@ for num in sueldos:
         elif num > mayor:
             mayor = num
 
+
 print("El menor sueldo es: ", menor)
 
 
