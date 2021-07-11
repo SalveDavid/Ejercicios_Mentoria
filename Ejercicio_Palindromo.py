@@ -19,11 +19,7 @@ def palindromo(texto):
     for i in range(len(string1) - 1, -1, -1):
         string2 += string1[i]
 
-    if string1 == string2:
-        return True
-    else:
-        return False
-
+    return string1 == string2
 
 print(palindromo(input("Ingrese palabra u oración: ")))
 
