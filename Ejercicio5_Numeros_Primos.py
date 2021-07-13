@@ -1,1 +1,0 @@
-numeros primos y generadores
