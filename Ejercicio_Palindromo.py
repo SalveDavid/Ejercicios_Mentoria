@@ -5,23 +5,12 @@
 
 def palindromo(texto):
 
-    string1 = ''
-    string2 = ''
-
     texto = texto.lower()
 
-    for i in range(len(texto)):
-        if texto[i] == ' ':
-            pass
-        else:
-            string1 += texto[i]
+    return texto == texto[::-1]
 
-    for i in range(len(string1) - 1, -1, -1):
-        string2 += string1[i]
 
-    return string1 == string2
-
-print(palindromo(input("Ingrese palabra u oración: ")))
+print(palindromo(input("Ingrese palabra u oración: ").replace(" ", "")))
 
 
 
